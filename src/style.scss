@@ -1,9 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #666;
-  a {
-    color: red;
-  }
-  li {
-    display: inline-block;
-  }
+  background-color: black;
+  color: white;
+}
+
+header {
+  height: 100px;
+  background-color: #333;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: red;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkslategray;
+  width: 200px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
