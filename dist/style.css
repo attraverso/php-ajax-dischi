@@ -1,0 +1,6 @@
+body {
+  background-color: #666; }
+  body a {
+    color: red; }
+  body li {
+    display: inline-block; }
