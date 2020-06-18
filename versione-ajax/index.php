@@ -6,10 +6,12 @@
   <link rel="stylesheet" href="../dist/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-  <script src="../main.js" charset="utf-8"></script>
+  <script src="main-ajax.js" charset="utf-8"></script>
 </head>
 <body>
-  <header></header>
+  <header>
+    <select id="artist-select"></select>
+  </header>
   <main class="container">
   </main>
 
@@ -22,6 +24,6 @@
       <p class="year">{{year}}</p>
     </div>
   </script>
-  
+
 </body>
 </html>

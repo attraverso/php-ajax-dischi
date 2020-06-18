@@ -34,3 +34,5 @@ main {
   height: 250px;
   margin-bottom: 20px;
   padding: 10px; }
+  .card img {
+    height: 150px; }

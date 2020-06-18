@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="../dist/style.css">
 </head>
 <body>
-  <header></header>
+  <header>
+  <select id="artist-select"></select>
+  </header>
   <main class="container">
     <?php foreach ($records as $key => $value) {?>
       <div class="card">
